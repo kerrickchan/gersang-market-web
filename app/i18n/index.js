@@ -1,4 +1,4 @@
-import i18next, { createInstance } from 'i18next'
+import { createInstance } from 'i18next'
 import resourcesToBackend from 'i18next-resources-to-backend'
 import { initReactI18next } from 'react-i18next/initReactI18next'
 import { getOptions } from './settings'
@@ -20,4 +20,4 @@ export async function useTranslation(lng, ns, options = {}) {
   }
 }
 
-export { i18nextProps } from './types'
+export * from './types'
