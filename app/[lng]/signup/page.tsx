@@ -18,7 +18,7 @@ export default function SignUp() {
   return (
     <>
       <Image
-        src="/img/background-2.jpg"
+        src="/img/background.jpg"
         className="absolute inset-0 z-0 h-full w-full object-cover"
         width={1920}
         height={1080}
